@@ -1,14 +1,16 @@
 # how to use this program
 
-### 0. run Server.exe and Client.exe 
+### 1. download Server-Client.zip 
 
-### 1. Server의 우측 하단 Clear 버튼으로 초기화
+### 2. run Server.exe and Client.exe 
 
-### 2. Client의 우측 상단 Clear 버튼으로 초기화
+### 3. Server의 우측 하단 Clear 버튼으로 초기화
 
-### 3. Server의 좌측 상단 Start 버튼으로 서버 타이머 시작
+### 4. Client의 우측 상단 Clear 버튼으로 초기화
 
-### 4. Client의 좌측 상단 connect 버튼으로 서버 연결
+### 5. Server의 좌측 상단 Start 버튼으로 서버 타이머 시작
+
+### 6. Client의 좌측 상단 connect 버튼으로 서버 연결
 
 CHAT과 Message 칸에 메세지를 적어 통신 가능
 
