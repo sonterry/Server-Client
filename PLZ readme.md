@@ -53,9 +53,11 @@ oTP90/AGVNUM/0001//JobID/Pallete Type/1/1/1/1
 ```
 3/AGV 90도 턴 요청/001/From 0001 Node/Node 정보 X/001/1/0/0/0/0
 를 Server 각각 변수창에 출력
-#
 
-##Client CHAT박스에 명령어 $status로 AGV에 저장된 변수 출력 및 Client에 전송
+
+
+## Client CHAT박스에 명령어 $status로 AGV에 저장된 변수 출력 및 Client에 전송
+
 ```
 $status
 ```
