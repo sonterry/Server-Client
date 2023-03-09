@@ -252,84 +252,84 @@ begin
 
             if sBuf[1] = 'Ostat' then
             begin
-              Final_cmd_print[1] := 'ªÛ≈¬ø‰√ª';
+              Final_cmd_print[1] := 'ÏÉÅÌÉúÏöîÏ≤≠';
 
             end
             else if sBuf[1] = 'oMove' then
             begin
-              Final_cmd_print[1] := '¿Ãµø ∏Ò¿˚¡ˆ(NODE) ø‰√ª';
+              Final_cmd_print[1] := 'Ïù¥Îèô Î™©Ï†ÅÏßÄ(NODE) ÏöîÏ≤≠';
             end
             else if sBuf[1] = 'oMore' then
             begin
-              Final_cmd_print[1] := '¿Ãµø ∏Ò¿˚¡ˆ(NODE) ∫Ø∞Ê ø‰√ª';
+              Final_cmd_print[1] := 'Ïù¥Îèô Î™©Ï†ÅÏßÄ(NODE) Î≥ÄÍ≤Ω ÏöîÏ≤≠';
             end
             else if sBuf[1] = 'oCHAR' then
             begin
-              Final_cmd_print[1] := 'Battery √Ê¿¸ ø‰√ª';
+              Final_cmd_print[1] := 'Battery Ï∂©Ï†Ñ ÏöîÏ≤≠';
             end
             else if sBuf[1] = 'oLOAD' then
             begin
-              Final_cmd_print[1] := 'Loading ø‰√ª';
+              Final_cmd_print[1] := 'Loading ÏöîÏ≤≠';
             end
             else if sBuf[1] = 'oUNLD' then
             begin
-              Final_cmd_print[1] := 'Unloading ø‰√ª';
+              Final_cmd_print[1] := 'Unloading ÏöîÏ≤≠';
             end
             else if sBuf[1] = 'oONLN' then
             begin
-              Final_cmd_print[1] := 'Online ø‰√ª';
+              Final_cmd_print[1] := 'Online ÏöîÏ≤≠';
             end
             else if sBuf[1] = 'oJCAN' then
             begin
-              Final_cmd_print[1] := 'JOB Cancel Ω¬¿Œ';
+              Final_cmd_print[1] := 'JOB Cancel ÏäπÏù∏';
             end
             else if sBuf[1] = 'oCANL' then
             begin
-              Final_cmd_print[1] := 'Battery √Ê¿¸ ¡ﬂ¡ˆ ø‰√ª';
+              Final_cmd_print[1] := 'Battery Ï∂©Ï†Ñ Ï§ëÏßÄ ÏöîÏ≤≠';
             end
             else if sBuf[1] = 'oESTP' then
             begin
-              Final_cmd_print[1] := 'AGV ¡§¡ˆ ø‰√ª(AGV Alarm πﬂª˝)';
+              Final_cmd_print[1] := 'AGV Ï†ïÏßÄ ÏöîÏ≤≠(AGV Alarm Î∞úÏÉù)';
             end
             else if sBuf[1] = 'oFIRE' then
             begin
-              Final_cmd_print[1] := 'AGV ¡ÔΩ√ πÊ»≠º≈≈Õ ±∏ø™ ¿Ãø‹ ∞Ê∑Œ∑Œ ¥Î«« π◊ ¡§¡ˆ ø‰√ª';
+              Final_cmd_print[1] := 'AGV Ï¶âÏãú Î∞©ÌôîÏÖîÌÑ∞ Íµ¨Ïó≠ Ïù¥Ïô∏ Í≤ΩÎ°úÎ°ú ÎåÄÌîº Î∞è Ï†ïÏßÄ ÏöîÏ≤≠';
             end
             else if sBuf[1] = 'oTP90' then
             begin
-              Final_cmd_print[1] := 'AGV 90µµ ≈œ ø‰√ª';
+              Final_cmd_print[1] := 'AGV 90ÎèÑ ÌÑ¥ ÏöîÏ≤≠';
             end
             else if sBuf[1] = 'oTP18' then
             begin
-              Final_cmd_print[1] := 'AGV 180µµ ≈œ ø‰√ª';
+              Final_cmd_print[1] := 'AGV 180ÎèÑ ÌÑ¥ ÏöîÏ≤≠';
             end
             else if sBuf[1] = 'oTM90' then
             begin
-              Final_cmd_print[1] := 'AGV -90µµ ≈œ ø‰√ª';
+              Final_cmd_print[1] := 'AGV -90ÎèÑ ÌÑ¥ ÏöîÏ≤≠';
             end
             else if sBuf[1] = 'oTM18' then
             begin
-              Final_cmd_print[1] := 'AGV -180µµ ≈œ ø‰√ª';
+              Final_cmd_print[1] := 'AGV -180ÎèÑ ÌÑ¥ ÏöîÏ≤≠';
             end
             else if sBuf[1] = 'oACSL' then
             begin
-              Final_cmd_print[1] := 'ACS ∞° ¿Ã¿Á±‚∑Œ Loding (AGV->Vaild)';
+              Final_cmd_print[1] := 'ACS Í∞Ä Ïù¥Ïû¨Í∏∞Î°ú Loding (AGV->Vaild)';
             end
             else if sBuf[1] = 'oACSU' then
             begin
-              Final_cmd_print[1] := 'ACS ∞° ¿Ã¿Á±‚∑Œ Unloading (AGV-> Vaild)';
+              Final_cmd_print[1] := 'ACS Í∞Ä Ïù¥Ïû¨Í∏∞Î°ú Unloading (AGV-> Vaild)';
             end
             else if sBuf[1] = 'oSpee' then
             begin
-              Final_cmd_print[1] := 'ACS ∞° AGV∑Œ º”µµ ¡¶æÓ ø‰√ª';
+              Final_cmd_print[1] := 'ACS Í∞Ä AGVÎ°ú ÏÜçÎèÑ Ï†úÏñ¥ ÏöîÏ≤≠';
             end
             else if sBuf[1] = 'oPaus' then
             begin
-              Final_cmd_print[1] := 'ACS ∞° AGV∑Œ Pause ø‰√ª';
+              Final_cmd_print[1] := 'ACS Í∞Ä AGVÎ°ú Pause ÏöîÏ≤≠';
             end
             else if sBuf[1] = 'oResu' then
             begin
-              Final_cmd_print[1] := 'ACS ∞° AGV∑Œ Resume ø‰√ª';
+              Final_cmd_print[1] := 'ACS Í∞Ä AGVÎ°ú Resume ÏöîÏ≤≠';
             end
             else
               Final_cmd_print[1] := '/ cmd X';
@@ -345,7 +345,7 @@ begin
 
             if sBuf[3] = '' then
             begin
-              Final_cmd_print[3] := 'Node ¡§∫∏ X';
+              Final_cmd_print[3] := 'Node Ï†ïÎ≥¥ X';
             end
             else
               Final_cmd_print[3] := 'From ' + sBuf[3] + ' Node';
@@ -353,7 +353,7 @@ begin
 
             if sBuf[4] = '' then
             begin
-              Final_cmd_print[4] := 'Node ¡§∫∏ X';
+              Final_cmd_print[4] := 'Node Ï†ïÎ≥¥ X';
             end
             else
               Final_cmd_print[4] := 'To ' + sBuf[4] + ' Node';
