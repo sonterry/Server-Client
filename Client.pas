@@ -56,7 +56,7 @@ type
 
 var
   Form1: TForm1;
-  Buffer  : array [0..1023] of AnsiChar; // Socket Receive·Î È°¿ë
+  Buffer  : array [0..1023] of AnsiChar; // Socket Receiveë¡œ í™œìš©
   status  : array [0..1023] of AnsiChar;
   i,j,k,word_count : Integer;
   AGV_Number : array [0..3] of AnsiChar;
@@ -75,7 +75,7 @@ var
   sLog : string;
 begin
 
-  if (WSocket1.State <> wsConnected) then // ¿¬°áµÇÁö ¾Ê¾Ò´Ù¸é
+  if (WSocket1.State <> wsConnected) then // ì—°ê²°ë˜ì§€ ì•Šì•˜ë‹¤ë©´
   begin
     { Not connected yet, start connection }
     try
@@ -110,7 +110,7 @@ begin
 
   end else
   begin
-    Application.messagebox(PChar('ÀÌ¹Ì SocketÀÌ ¿¬°áµÇ¾î ÀÖ½À´Ï´Ù.'), 'WARNING', MB_OK or MB_ICONINFORMATION);
+    Application.messagebox(PChar('ì´ë¯¸ Socketì´ ì—°ê²°ë˜ì–´ ìˆìŠµë‹ˆë‹¤.'), 'WARNING', MB_OK or MB_ICONINFORMATION);
   end;
 end;
 
@@ -120,7 +120,7 @@ var
 begin
   if (WSocket1.State <> wsConnected) then
   begin
-    Application.messagebox(PChar('ÀÌ¹Ì Socket¿¬°áÀÌ ²÷¾îÁ® ÀÖ´Â »óÅÂÀÔ´Ï´Ù.'), 'WARNING', MB_OK or MB_ICONINFORMATION);
+    Application.messagebox(PChar('ì´ë¯¸ Socketì—°ê²°ì´ ëŠì–´ì ¸ ìˆëŠ” ìƒíƒœì…ë‹ˆë‹¤.'), 'WARNING', MB_OK or MB_ICONINFORMATION);
     Exit;
   end else
   begin
@@ -262,7 +262,7 @@ end;
 
 
   {
-  for i := 1 to length(status_divisionAddress){or data °¹¼ö}{ do
+  for i := 1 to length(status_divisionAddress){or data ê°¯ìˆ˜}{ do
   begin
     word_count := k + 1;
     if
