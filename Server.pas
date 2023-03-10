@@ -397,6 +397,7 @@ begin
               Final_cmd_print_all := Final_cmd_print_all + Final_cmd_print[g] + '/ ';
             end;
             Final_cmd_print_all := IntToStr(cmd_count-1) + '/' + Final_cmd_print_all;
+            Final_cmd_print_all := Copy(Final_cmd_print_all, 1, Length(Final_cmd_print_all) - 2);
             SendCommand( WSocketServer1.Client[0] , Final_cmd_print_all);
             //ListBox1.Items.Add(Final_cmd_print_all);
             ListBox1.ItemIndex := ListBox1.Items.Count-1;
