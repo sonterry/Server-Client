@@ -94,6 +94,5 @@ oPaus : ACS 가 AGV로 Pause 요청
 oResu : ACS 가 AGV로 Resume 요청
 -->
 
-## ps. DO NOT USE <u>btnAGVtoACS_SAND</u> and <u>ACStoAGV_SAND</u> !
-<span style="color:yellow">~~이 버튼의 기능을 통신 버튼과 통합하였습니다.~~</span>
+
 
