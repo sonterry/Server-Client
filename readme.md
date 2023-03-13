@@ -6,11 +6,9 @@
 
 ### 3. Server의 우측 하단 Clear 버튼으로 초기화
 
-### 4. Client의 우측 상단 Clear 버튼으로 초기화
+### 4. Server의 좌측 상단 Start 버튼으로 서버 타이머 시작
 
-### 5. Server의 좌측 상단 Start 버튼으로 서버 타이머 시작
-
-### 6. Client의 좌측 상단 connect 버튼으로 서버 연결
+### 5. Client의 좌측 상단 connect 버튼으로 서버 연결
 
 CHAT과 Message 칸에 메세지를 적어 통신 가능
 
@@ -37,30 +35,22 @@ TOPTEC의 ACS 통신 사양서에 맞춰 각종 변수 및 명령어를 CHAT 칸
 
 ex : 
 ```
-oMove/AGVNUM/1010/1024/JobID/Pallete Type/0/0/0/0
+oSTAT/1001/1001
 ```
-1/이동 목적지(NODE) 요청/001/From 1010 Node/To 1024 Node/001/1/0/0/0/0
+aSTAT/001/0000000/0000000/0000000/000/Manual/Idle/00000/0000/1001/1001/00000/0/00000000/00000000000000000000/1/000/000/000/0
 를 Server 각각 변수창에 출력
 #
 ```
-oCHAR/AGVNUM//1024/JobID//0/0/0/0
+oMOVE/1001/1002
 ```
-2/Battery 충전 요청/001/Node 정보 X/To 1024 Node/001/none cmd.../0/0/0/0
+aMOVE/001/0000000/0000000/0000000/000/Manual/Idle/600/0000/1001/1002/00000/0/00000000/00000000000000000000/1/000/000/000/0
 를 Server 각각 변수창에 출력
 #
 ```
-oTP90/AGVNUM/0001//JobID/Pallete Type/1/1/1/1
-```
-3/AGV 90도 턴 요청/001/From 0001 Node/Node 정보 X/001/1/0/0/0/0
-를 Server 각각 변수창에 출력
 
 
 
-## Client CHAT박스에 명령어 $status로 AGV에 저장된 변수 출력 및 Client에 전송
 
-```
-$status
-```
 
 <!--
 Ostat : 상태요청
